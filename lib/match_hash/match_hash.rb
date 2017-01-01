@@ -14,7 +14,8 @@ RSpec::Matchers.define :match_hash do |expected|
 
   include Sub
   match do |actual|
-    match_hash(expected, actual)
+    @is_errors = []
+    !match_hash(expected, actual)
   end
 
   # RSpecc::Matchers::ExpectedsForMultipleDiffsは

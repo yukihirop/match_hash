@@ -28,7 +28,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.13)
   match_hash!
-  rake (~> 10.0)
+  rake (~> 10.5.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
