@@ -1,5 +1,5 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "match_hash"
+require "environment"
 
 Dir["./support/**/*.rb"].each do |f|
   require f

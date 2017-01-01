@@ -1,6 +1,3 @@
 require "match_hash/version"
 require "match_hash/match_hash"
-
-module MatchHash
-  # Your code goes here...
-end
+require "match_hash/sub/match_hash"
