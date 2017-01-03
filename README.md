@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/match_hash.svg)](https://badge.fury.io/rb/match_hash)
 [![wercker status](https://app.wercker.com/status/b7b6922e7a90870633ac09993e8aa51b/s/master "wercker status")](https://app.wercker.com/project/byKey/b7b6922e7a90870633ac09993e8aa51b)
 
-Easily handle JSON in RSpec.
+Easily handle Hash in RSpec.
 
 ## RSpec
 
@@ -13,7 +13,7 @@ match_hash defines one new RSpec matcher:
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's `Gemfile` :
 
 ```ruby
 gem 'match_hash'
