@@ -39,7 +39,7 @@ describe MatchHash do
   it "A hash do not match B hash and occured raise_error" do
     expect do
       expect(@A).to match_hash(@B)
-    end.to raise_error
+    end.to raise_error(RSpec::Expectations::ExpectationNotMetError)
   end
 
 end
