@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    match_hash (0.1.0)
+    match_hash (0.1.1)
       rspec-expectations (~> 3.0)
 
 GEM
@@ -33,4 +33,4 @@ DEPENDENCIES
   rspec (~> 3.0)
 
 BUNDLED WITH
-   1.13.6
+   1.13.7
