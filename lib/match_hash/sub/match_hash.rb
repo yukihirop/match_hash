@@ -19,7 +19,7 @@ module Sub
   end
 
   def match_array(expected, actual)
-    expected.each_with_index do |i|
+    expected.each_with_index do |_,i|
       match_value(expected[i],actual[i])
     end
   end
