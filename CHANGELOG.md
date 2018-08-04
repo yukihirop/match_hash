@@ -1,3 +1,7 @@
+## v0.1.2
+2018-08-04
+* [Don't choke on hashes inside arrays](https://github.com/yukihirop/match_hash/pull/3)
+
 ## v0.1.1
 2016-01-03
 * RENAME lib/environment.rb -> lib/match_hash.rb
