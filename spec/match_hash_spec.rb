@@ -12,7 +12,8 @@ describe MatchHash do
             b12:12
         },
         a15:[1,2,3],
-        a16:16
+        a16:16,
+        a17: [{b13: 13}]
     }
 
     @B = {
@@ -24,7 +25,8 @@ describe MatchHash do
             b12:12
         },
         a15:[3,2,1],
-        a16:16
+        a16:16,
+        a17: [{b13: 13}]
     }
   end
 
